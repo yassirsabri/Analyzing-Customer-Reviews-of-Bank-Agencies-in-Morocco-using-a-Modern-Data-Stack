@@ -1,48 +1,64 @@
-Analyzing Customer Reviews of Bank Agencies in Morocco using a Modern Data Stack
-📌 Description
-Ce projet a pour objectif d’analyser les avis clients des agences bancaires au Maroc à l’aide d’une architecture moderne de traitement de données. Il couvre l’ensemble du pipeline de données : collecte, transformation, analyse de sentiment, modélisation et visualisation.
+# Analyzing Customer Reviews of Bank Agencies in Morocco using a Modern Data Stack
 
-📚 Table des matières
-Introduction
+## Table des matières
 
-Chapitre 1 : Collecte, Automatisation et Transformation des Données Textuelles des Avis Clients
+- [Introduction](#introduction)
+- [Chapitre 1 : Collecte, Automatisation et Transformation des Données Textuelles des Avis Clients](#chapitre-1--collecte-automatisation-et-transformation-des-données-textuelles-des-avis-clients)
+  - [1.1 Collecte des Données – Phase de Scraping via Google Maps API](#11-collecte-des-données--phase-de-scraping-via-google-maps-api)
+  - [1.2 Transformation et Nettoyage des Avis Bancaires](#12-transformation-et-nettoyage-des-avis-bancaires)
+  - [1.3 Analyse de Sentiment et Extraction des Indicateurs de Satisfaction Client](#13-analyse-de-sentiment-et-extraction-des-indicateurs-de-satisfaction-client)
+- [Chapitre 2 : Data Modeling & BI Dashboard](#chapitre-2--data-modeling--bi-dashboard)
+  - [2.1 Modélisation des Données en Schéma en Étoile](#21-modélisation-des-données-en-schéma-en-étoile)
+  - [2.2 Conception et Visualisation du Dashboard BI](#22-conception-et-visualisation-du-dashboard-bi)
+- [Conclusion](#conclusion)
+- [Annexe](#annexe)
 
-1.1 Collecte des Données – Phase de Scraping via Google Maps API
+---
 
-1.2 Transformation et Nettoyage des Avis Bancaires
+## Introduction
 
-1.3 Analyse de Sentiment et Extraction des Indicateurs de Satisfaction Client
+Ce projet a pour objectif l’analyse des avis clients des agences bancaires au Maroc en utilisant une stack moderne de traitement des données. Le projet couvre toutes les étapes clés : collecte, transformation, analyse de sentiment, modélisation des données et visualisation à travers un dashboard BI.
 
-Chapitre 2 : Data Modeling & BI Dashboard
+---
 
-2.1 Modélisation des Données en Schéma en Étoile
+## Chapitre 1 : Collecte, Automatisation et Transformation des Données Textuelles des Avis Clients
 
-2.2 Conception et Visualisation du Dashboard BI
+### 1.1 Collecte des Données – Phase de Scraping via Google Maps API
 
-Conclusion
+Extraction automatisée des avis clients depuis Google Maps en utilisant l’API dédiée.
 
-Annexe
+### 1.2 Transformation et Nettoyage des Avis Bancaires
 
-💡 Introduction
-L’étude vise à valoriser les avis clients partagés sur Google Maps afin de mieux comprendre la perception des clients vis-à-vis des agences bancaires marocaines. Le projet met en œuvre un pipeline de données moderne intégrant des technologies de scraping, de transformation de texte, d'analyse sémantique, de modélisation et de visualisation BI.
+Nettoyage des données textuelles : suppression du bruit, normalisation, tokenisation et préparation pour l’analyse.
 
-🛠️ Chapitre 1 : Collecte, Automatisation et Transformation des Données Textuelles des Avis Clients
-1.1 Collecte des Données
-Utilisation de l’API Google Maps pour extraire les avis clients relatifs aux agences bancaires.
+### 1.3 Analyse de Sentiment et Extraction des Indicateurs de Satisfaction Client
 
-1.2 Transformation et Nettoyage
-Traitement du texte brut : suppression du bruit, normalisation linguistique, tokenisation, etc.
+Application de techniques NLP pour classifier les avis selon leur tonalité et extraire des métriques clés sur la satisfaction client.
 
-1.3 Analyse de Sentiment
-Utilisation de modèles de NLP pour classifier les avis (positif, neutre, négatif) et extraire des KPI de satisfaction.
+---
 
-📊 Chapitre 2 : Data Modeling & BI Dashboard
-2.1 Modélisation
-Création d’un modèle en étoile pour structurer les données analysées de manière optimale pour le reporting.
+## Chapitre 2 : Data Modeling & BI Dashboard
 
-2.2 Dashboard BI
-Développement d’un tableau de bord interactif (via Power BI, Tableau ou autre) pour visualiser les résultats de l’analyse.
+### 2.1 Modélisation des Données en Schéma en Étoile
 
-✅ Conclusion
-Le projet démontre comment une approche orientée données permet de transformer des avis clients non structurés en indicateurs exploitables par les départements marketing, qualité et relation client.
+Organisation des données selon un modèle en étoile facilitant les analyses multidimensionnelles.
+
+### 2.2 Conception et Visualisation du Dashboard BI
+
+Création d’un tableau de bord interactif pour visualiser les indicateurs extraits et suivre la satisfaction client.
+
+---
+
+## Conclusion
+
+Ce projet illustre comment exploiter les données non structurées issues des avis clients pour obtenir des insights exploitables par les équipes métiers, améliorant ainsi la prise de décision.
+
+---
+
+## Annexe
+
+- Extraits de code source  
+- Échantillons de données collectées  
+- Captures d’écran du dashboard  
+- Références et ressources utilisées
 
