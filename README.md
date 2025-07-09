@@ -58,7 +58,5 @@ Ce projet illustre comment exploiter les données non structurées issues des av
 ## Annexe
 
 - Extraits de code source  
-- Échantillons de données collectées  
-- Captures d’écran du dashboard  
-- Références et ressources utilisées
+
 
